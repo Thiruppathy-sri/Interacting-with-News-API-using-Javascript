@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.card {
+  border-radius: 0.75rem;
+}
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.75rem - 1px);
+  border-top-right-radius: calc(.75rem - 1px);
+}
+.newsdata-feed .card {
+  box-shadow: 0px 12px 38px 0px rgb(0 0 0 / 10%);
+}
+.newsdata-feed h3.text-center {
+  margin: 0 auto;
+}
+.newsdata-feed.row {
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+.card-img-top {
+    max-height: 180px;
+    min-height: 180px;
+    object-fit: cover;
+  }
+  .card-text{
+    min-height: 72px;
+    margin-bottom: 0px;
+  }
+  .date-time {
+    font-size: 14px;
+  }
+  .date-time p {
+   margin-bottom: 10px;
+   color: #707070;
+  }
+  .card-link {
+    float: right;
+  }
+
+
+
+  select {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 20em;
+    height: 3em;
+    padding: 0 4em 0 1em;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+    no-repeat right 0.8em center / 1.4em,
+  linear-gradient(to left, #8766fa 3em, #8766fa 3em);
+    color: #fff;
+    border-radius: 0.25em;
+    box-shadow: 0px 12px 38px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+
+
+  }
+  option {
+    color: inherit;
+    background-color: #8766fa;
+  }
+  select:focus {
+
+  }
+  select::-ms-expand {
+    display: none;
+  }
